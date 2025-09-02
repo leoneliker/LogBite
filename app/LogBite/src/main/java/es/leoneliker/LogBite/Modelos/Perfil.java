@@ -14,6 +14,14 @@ public class Perfil {
     @Id
     private Long idUsuario;
 
+    private String nombre;
+
+    @Column(nullable = true)
+    private String apellidos;
+
+    @Column(nullable = true)
+    private String apodo;
+
     @Column(nullable = true)
     private String preferencias;
 
