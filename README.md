@@ -1,3 +1,88 @@
+# 🍲 My Kitchen – Recipe Calendar & Manager
+
+**My Kitchen** is an application designed to organize daily meals through an interactive calendar.  
+Each user can create a profile, log their meals, add custom recipes, and manage their ingredients.  
+The project aims to evolve into a **collaborative recipe community** with a rich and diverse database.
+
+---
+
+## 📖 Description
+The main goal is for the user to log at least one meal per day in their calendar, building a personal recipe book that can later be expanded, shared, and enriched in future phases.  
+
+---
+
+## 🛠️ Features
+
+### 1. Loading screen
+Initial splash screen with the app’s visual identity.
+
+### 2. User creation
+- Registration with name, email, password, or Google.  
+- Additional data: country, city, age.  
+- Selection of **calendar start date** (independent from the account creation date).  
+
+### 3. Monthly calendar
+Visual style inspired by **Duolingo**, encouraging daily meal logging.  
+- ➕ Central button to add meals/recipes.  
+- 👥 Social button (phase 2): friends, contacts, and public recipes.  
+- 📖 Recipe book button (phase 2): personal and saved recipes.  
+- ⚙️ Menu button: profile, editing, notifications, settings, dark mode.  
+- 🏠 “My Kitchen” button: ingredient inventory.  
+
+### 4. Add meal/recipe
+- Day selection (default: current day).  
+- Meal type: breakfast, lunch, snack, or dinner.  
+- Log what was eaten.  
+- Option to add recipe: ingredients + step-by-step instructions.  
+- Recipe similarity check to avoid duplicates.  
+
+### 5. Recipe book
+Personal recipe repository:  
+- User’s own creations.  
+- Saved recipes from others (phase 2).  
+- History of edits, repetitions, and creation dates.  
+
+### 6. My Kitchen
+Ingredient management:  
+- List with quantities and expiration dates.  
+- Direct access to user’s recipes.  
+- (Phase 2) Most popular community recipes.  
+
+---
+
+## 🔮 Future improvements (Phase 2)
+- Collaborative user and recipe database.  
+- Social features: share, rate, and comment on recipes.  
+- Recommendations based on available ingredients.  
+- Food expiration alerts.  
+- Dynamic ranking of most popular recipes.  
+
+---
+
+## 🧑‍💻 Planned technologies
+- **Frontend**: Angular + Ionic (cross-platform mobile app).  
+- **Backend**: Java Spring Boot.  
+- **Database**: PostgreSQL.  
+- **Integration**: Docker and Apache.  
+
+---
+
+## 📅 Roadmap
+- [ ] User profile creation.  
+- [ ] Duolingo-style interactive calendar.  
+- [ ] Personal recipe book.  
+- [ ] “My Kitchen” module (ingredient inventory).  
+- [ ] Social and community features (phase 2).  
+
+---
+
+## 📄 License
+This project is distributed under the **MIT License**, allowing use, modification, and distribution for personal or commercial purposes, provided that the corresponding license notice is preserved.
+
+
+---
+---
+
 # 🍲 Mi Cocina – Calendario y gestor de recetas
 
 **Mi Cocina** es una aplicación pensada para organizar comidas diarias a través de un calendario interactivo.  
