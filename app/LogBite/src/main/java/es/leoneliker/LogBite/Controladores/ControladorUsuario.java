@@ -1,17 +1,19 @@
 package es.leoneliker.LogBite.Controladores;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import es.leoneliker.LogBite.Modelos.Usuario;
 import es.leoneliker.LogBite.Servicios.ServicioUsuario;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/usuarios")
+@Tag(name = "Usuarios", description = "Controlador de usuarios")
 public class ControladorUsuario {
 
     @Autowired
@@ -42,5 +44,11 @@ public class ControladorUsuario {
     public ResponseEntity<Void> eliminarUsuario(@PathVariable Long id) {
         servicioUsuario.eliminarUsuario(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/hello")
+    @Operation(summary = "Saludo simple", description = "Devuelve un saludo básico")
+    public String hello() {
+        return "Hola!";
     }
 }
