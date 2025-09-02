@@ -1,6 +1,6 @@
-# 🍲 My Kitchen – Recipe Calendar & Manager
+# 🍲 LogBite – Recipe Calendar & Manager
 
-**My Kitchen** is an application designed to organize daily meals through an interactive calendar.  
+**LogBite** is an application designed to organize daily meals through an interactive calendar.  
 Each user can create a profile, log their meals, add custom recipes, and manage their ingredients.  
 The project aims to evolve into a **collaborative recipe community** with a rich and diverse database.
 
@@ -83,9 +83,9 @@ This project is distributed under the **MIT License**, allowing use, modificatio
 ---
 ---
 
-# 🍲 Mi Cocina – Calendario y gestor de recetas
+# 🍲 LogBite – Calendario y gestor de recetas
 
-**Mi Cocina** es una aplicación pensada para organizar comidas diarias a través de un calendario interactivo.  
+**LogBite** es una aplicación pensada para organizar comidas diarias a través de un calendario interactivo.  
 Cada usuario podrá crear su perfil, registrar lo que come, añadir recetas propias y gestionar sus ingredientes.  
 El proyecto está orientado a evolucionar hacia una **comunidad colaborativa de recetas** con una base de datos rica y variada.
 
