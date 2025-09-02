@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    viewBox="0 0 450 220" xml:space="preserve">
+    <!-- Primary --><rect fill="#f67219" x="0" y="0" width="50" height="220" />
+    <!-- Secondary --><rect fill="#14335f" x="50" y="0" width="50" height="220" />
+    <!-- White --><rect fill="#fbfbfb" x="100" y="0" width="50" height="220" />
+    <!-- Primary 2 --><rect fill="#ed8b46" x="150" y="0" width="50" height="220" />
+    <!-- Secondary 2 --><rect fill="#959db2" x="200" y="0" width="50" height="220" />
+    <!-- Primary 3--><rect fill="#eaad89" x="250" y="0" width="50" height="220" />
+    <!-- Primary 4--><rect fill="#edc6aa" x="300" y="0" width="50" height="220" />
+    <!-- Secondary 3 --><rect fill="#c6cdd2" x="350" y="0" width="50" height="220" />
+    <!-- Secondary 4--><rect fill="#7494ac" x="400" y="0" width="50" height="220" />
+</svg>
