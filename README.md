@@ -8,8 +8,6 @@ El proyecto está orientado a evolucionar hacia una **comunidad colaborativa de 
 
 ## 📖 Descripción
 El objetivo principal es que el usuario registre, al menos, una comida al día en su calendario, construyendo así un recetario personal que se podrá ampliar, compartir y enriquecer en fases posteriores.  
-Actualmente, la aplicación trabaja con plantillas de recetas en `.docx` vinculadas a un calendario en **Excel**, pero se encuentra en desarrollo hacia una solución completa en aplicación web/móvil.
-
 ---
 
 ## 🛠️ Funcionalidades
@@ -61,16 +59,14 @@ Gestión de ingredientes:
 ---
 
 ## 🧑‍💻 Tecnologías previstas
-- **Frontend**: React Native (aplicación móvil multiplataforma).  
-- **Backend**: Node.js + Express.  
-- **Base de datos**: PostgreSQL o MongoDB.  
-- **Archivos**: Generación y vinculación de `.docx` y calendarios.
+- **Frontend**: Angular + Ionic(aplicación móvil multiplataforma).  
+- **Backend**: Java SpringBoot.  
+- **Base de datos**: PostgreSQL.
+- **Integracion**: Docker y apache.
 
 ---
 
 ## 📅 Roadmap
-- [x] Plantilla de recetas en `.docx`.
-- [x] Vinculación con calendario en Excel.
 - [ ] Creación de perfiles de usuario.
 - [ ] Calendario interactivo estilo Duolingo.
 - [ ] Recetario personal.
